@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day-3 Challenge-2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3 id="list">Enter lower and upper limit</h3>
+                <p id="sumEven"></p>
+                <p id="sumOdd"></p>
+                <form name="findOddEven" onsubmit="return listOddEven()">
+                    <label for="lowerLimit">Enter lower limit</label>
+                    <input type="number" min="0" max="100" name="lowerLimit" id="lowerLimit" />
+                    <label for="upperLimit">Enter upper limit</label>
+                    <input type="number" min="0" max="100" name="upperLimit" id="upperLimit" />
+                    <button type="submit">List all</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
