@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h1>Enter your name and age to find if you can vote or not?</h1>
+    <form name="frm" onsubmit="return validate()">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age">
+        <button type="submit">Check</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>

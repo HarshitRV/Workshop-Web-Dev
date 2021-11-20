@@ -8,3 +8,7 @@
 [Codepen Link](https://codepen.io/lucifer00911/full/OJjqPyw)
 ### Challenge-2
 [Codepen Link](https://codepen.io/lucifer00911/full/rNzRaeO)
+
+## Day-3
+### Challenges
+[Codepen Link](https://codepen.io/lucifer00911/full/RwZdmRE)
