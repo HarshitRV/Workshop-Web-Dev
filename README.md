@@ -10,5 +10,7 @@
 [Codepen Link](https://codepen.io/lucifer00911/full/rNzRaeO)
 
 ## Day-3
-### Challenges
+### Challenge-1: Find square of a number, check if a number is prime or not, check if its odd or even
 [Codepen Link](https://codepen.io/lucifer00911/full/RwZdmRE)
+### Challenge-2: Find all even number between two given number, find sum of all even number and odd number.
+[Codepen Link](https://codepen.io/lucifer00911/full/bGrZXOJ)
