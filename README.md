@@ -16,3 +16,7 @@
 [Codepen Link](https://codepen.io/lucifer00911/full/bGrZXOJ)
 ### Challenge-3: Add form validation through javascript.
 [Codepen Link](https://codepen.io/lucifer00911/full/xxLewzv)
+
+## Day-4
+### Challenge: Employee registration form
+[Codepen Link](https://codepen.io/lucifer00911/full/jOLRGZq)
