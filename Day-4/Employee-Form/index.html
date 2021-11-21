@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">  
+    <form name="registeration" onsubmit="return validation()" class="row">
+        <div class="col"><h1>Employee Registration Form</h1></div>
+        <div class="col">
+        <label for="f-name">First Name</label>
+        <input type="text" name="fName" id="fName">
+    </div>
+    <div class="col">
+        <label for="l-name">Last Name</label>
+        <input type="text" name="lName" id="lName">
+    </div>
+    <div class="col">
+        <label for="linkedIn">Linked In URL</label>
+        <input type="url" name="linkedIn" id="linkedIn">
+    </div>
+    <div class="col">
+        <label for="salary">Salary</label>
+        <input type="number" min="0" name="salary" value="0" id="salary">
+    </div>
+    <div class="col">
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob">
+    </div>
+    <div class="col">
+        <label for="role">Role</label>
+        <input type="text" name="role" id="role">
+    </div>
+    <div class="col">
+        <label for="work-start">Working hour starting</label>
+        <input type="time" id="work-start" name="startHour" min="09:00" max="18:00" id="work-start">
+    </div>
+    <div class="col">
+        <label for="work-end">Working hour ending</label>
+        <input type="time" id="work-end" name="endHour" min="09:00" max="18:00" id="work-start">
+    </div>
+    <div class="col">
+        <p for="martial-status">Relationship Status</p>
+        
+        <input type="radio" name="relationship" value="married" id="married">
+        <label for="married">Married</label>
+
+       
+        <input type="radio" name="relationship" value="unmarried" id="unmarried">
+        <label for="unmarried">Unmarried</label>
+        
+        <input type="radio" name="relationship" value="divorced" id="divorced">
+        <label for="divorced">Divorced</label>
+
+        
+        <input type="radio" name="relationship" id="widowed">
+        <label for="widowed">Widowed</label>
+    </div>
+<div class="col">
+        <p>Qualifications</p>
+        <input type="checkbox" name="10+2" value="10+2" id="10+2">
+        <label for="10+2">10+2</label>
+
+        <input type="checkbox" name="graduate" value="graduate" id="graduate">
+        <label for="graduate">Graduate</label>
+
+        <input type="checkbox" name="post-graduate" value="post-graduate" id="post-graduate">
+        <label for="post-graduate">Post Graduate</label>
+    </div>
+    <div class="col">
+        <button type="submit">Submit</button>
+    </div>
+    </form>
+
+    <script src="index.js"></script>
+</div>
+</body>
+</html>
