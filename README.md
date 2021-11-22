@@ -20,3 +20,7 @@
 ## Day-4
 ### Challenge: Employee registration form
 [Codepen Link](https://codepen.io/lucifer00911/full/jOLRGZq)
+
+### Challenges: PHP
+1. [factorial of a number](Day-4/PHP-Challenges/factorial.php);
+2. [finding odd even num without using modulus](Day-4/PHP-Challenges/odd_even.php)
