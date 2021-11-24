@@ -1,0 +1,77 @@
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 1em  0;
+    background-color: #edf0f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 60%;
+    max-width: 1128px;
+}
+
+.row {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+input, select {
+    width: 100%;
+    margin-top: 0.5em;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid rgb(38, 118, 209);
+}
+
+label {
+    font-size: 24px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    border: 0px;
+    width: 2%;
+}
+
+button{
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+p {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    margin-top: 2%;
+    width: 100%;
+}
+
+.col {
+    width: 100%;
+}
+
+.col + .col {
+    margin-top: 2em;
+}
