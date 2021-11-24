@@ -1,4 +1,6 @@
 # [Workshop Web Dev Challenges](https://codepen.io/collection/Wvwyag)
+
+Solution of challenges given on each day.
 ## Day-1
 ### Challenges
 [Codepen Link](https://codepen.io/lucifer00911/full/dyzrPyW)
