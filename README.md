@@ -24,3 +24,13 @@
 ### Challenges: PHP
 1. [factorial of a number](Day-4/PHP-Challenges/factorial.php);
 2. [finding odd even num without using modulus](Day-4/PHP-Challenges/odd_even.php)
+
+# Day-5
+### Challenge create a table and show the data base data into it.
+[Code](Day-5/Challenge)
+
+# Day-6
+### Crud operation on a data in workshop
+[workshop-work](Day-6/workshop-work)
+### Crud operation revised at home by making own database and form
+[crud-with-php](Day-6/crud-with-php)
