@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.165rem;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(#a10a0a, #9198e5);
+}
+
+table, tr, td, th {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    text-transform: capitalize;
+    background-color: rgb(240, 234, 234);
+}
+
+tr:nth-child(even){
+    background-color:rgb(245, 245, 245);
+}
+
+tr:nth-child(odd){
+    background-color:rgb(230, 215, 215);
+}
+
+table {
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: #0d6efd;
+    padding:1%;
+    border-radius: 8px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.heading {
+    color: rgb(255, 255, 255);
+}
+
+.table--link-edit {
+    text-decoration: none;
+    color: rgb(19, 112, 0);
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: #fff;
+} 
+
+.table--link-delete {
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: red;
+} 
+
+.container {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.container--data {
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 2%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+form {
+    font-weight: 800;
+    background: linear-gradient(#ca2f2f81, #757dcf);
+    padding:5%;
+    color:black;
+    border-radius: 10px;
+    box-shadow: -12px -12px -2px 1px rgba(0, 0, 255, .2);
+}
+
+input, textarea{
+    width: 100%;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: none;
+    border: none;
+}
+
+select {
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input[type="radio"]{
+    width: 3%;
+    border: 2px solid black;
+}
+
+button {
+    width:100%;
+    padding:0.5em;
+    font-size: 1.165rem;
+    border: none;
+    background-color: #0d6efd;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+
+.radio {
+    margin-bottom: 1%;
+}
+
+
+
+/* .radio + .radio {
+    margin-left: 1%;
+} */
+
+.col {
+    width: 100%;
+}
+
+.col + .col {
+    margin-top: 4%;
+}

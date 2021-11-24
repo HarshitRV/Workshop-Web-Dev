@@ -34,3 +34,7 @@
 [workshop-work](Day-6/workshop-work)
 ### Crud operation revised at home by making own database and form
 [crud-with-php](Day-6/crud-with-php)
+
+# Day-7
+### Final Challenge: Teacher registeration form.
+[Final Challenge code and files](Day-7/final-challenge)
